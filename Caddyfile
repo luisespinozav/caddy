@@ -1,0 +1,7 @@
+{
+    email nombre@gmail.com
+}
+ 
+sub.dominio.com {
+    reverse_proxy  IP:puerto
+}
