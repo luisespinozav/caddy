@@ -10,8 +10,12 @@ Example:
     email user@gmail.com
 }
  
-domain.com, www.domain.com {
+domain.com {
     reverse_proxy  164.152.37.888:9001
+}
+
+www.domain.com {
+    redir https://domain.com{uri}
 }
 
 shop.domain.com {
