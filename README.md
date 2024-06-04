@@ -18,7 +18,7 @@ www.domain.com {
     redir https://domain.com{uri}
 }
 
-shop.domain.com {
+shop.domain.com, store.domain.com {
     reverse_proxy  164.152.37.888:9002
 }
 ```
